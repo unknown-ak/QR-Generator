@@ -1,0 +1,46 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+h1 {
+    color: #ea1a78;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#text {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 20px;
+    border: 1px solid #ee6aa7;
+    border-radius: 5px;
+    height: 35px;
+    color:#ea1a78;
+}
+
+
+/* CSS */
+button {
+    appearance: button;
+    background-color: #ee6aa7;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    width: 250px;
+    font-family: din-round, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    padding: 13px 16px;
+    text-transform: uppercase;
+}
+.image{
+    margin: 20px;
+}
